@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ĐT Việt Nam thay đổi lịch trình, sang Ả Rập Xê Út muộn hơn 1 ngày</title>
+
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/9.0.0/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/9.0.0/firebase-auth.js"></script>
+    <script defer src="/__/firebase/9.0.0/firebase-database.js"></script>
+    <script defer src="/__/firebase/9.0.0/firebase-firestore.js"></script>
+    <script defer src="/__/firebase/9.0.0/firebase-functions.js"></script>
+    <script defer src="/__/firebase/9.0.0/firebase-messaging.js"></script>
+    <script defer src="/__/firebase/9.0.0/firebase-storage.js"></script>
+    <script defer src="/__/firebase/9.0.0/firebase-analytics.js"></script>
+    <script defer src="/__/firebase/9.0.0/firebase-remote-config.js"></script>
+    <script defer src="/__/firebase/9.0.0/firebase-performance.js"></script>
+    <!-- 
+      initialize the SDK after all desired features are loaded, set useEmulator to false
+      to avoid connecting the SDK to running emulators.
+    -->
+    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+
+    <link rel="stylesheet" href="baitap1.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+        integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+  </head>
+
+<body>
+    <div class="fullweb">
+        <div class="wraptop">
+            <ul class="bordertop">
+                <li class="nav-link"><i class="fas fa-circle" style="margin-top: 16px; color: rgb(5, 92, 63);"></i><a href=""><strong>Tin Mới</strong></a></li>
+                <li class="nav-link"><i class="fas fa-circle" style="margin-top: 16px; color: rgb(5, 92, 63);"></i><a href=""><strong>2 Đẹp</strong></a></li>
+                <div class="anh" style="margin-left: 250px;"><a href=""><img
+                            src="https://tinmoi.vn/pc2021/static/images/logo-blue.svg" alt=""></a></div>
+                <li class="nav-link" style="margin-left: 70px;"><a href="">Giới thiệu</a></li>
+                <li class="nav-link"><a href="">Liên hệ</a></li>
+                <li class="nav-link">
+                    <i class="far fa-envelope fa-2x" style="padding-top: 10px;"></i>
+                    <a href="https://tinmoi.vn/lien-he.html">lienhe@tinmoi.vn</a>
+                </li>
+            </ul>
+        </div>
+
+        <div id="menu">
+            <div class="full-content">
+                <div class="container">
+                    <ul class="nav-link">
+                        <div> <a href=""> <i class="fa fa-home fa-2x" style="color: white;"></i> </a></div>
+
+                        <div>
+                            <li class="dropdown">
+                                <a href="" style="color: white;"><strong>GIẢI TRÍ</strong></a>
+                                <ul class="dropdown-content">
+                                    <li>
+                                        <a href="">Ngôi Sao</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Nhạc</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Thời trang</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </div>
+
+                        <div>
+                            <li class="dropdown">
+                                <a href="" style="color: white;"><strong>THỂ THAO</strong></a>
+                                <ul class="dropdown-content">
+                                    <li>
+                                        <a href="">Bóng Đá</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Tenis</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </div>
+
+                        <div>
+                            <li class="dropdown">
+                                <a href="" style="color: white;"><strong>PHÁP LUẬT</strong></a>
+                                <ul class="dropdown-content">
+                                    <li>
+                                        <a href="">Pháp đình</a>
+                                    </li>
+                                    <li>
+                                        <a href="">An ninh hình sự</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Vụ án</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </div>
+
+                        <div>
+                            <li class="dropdown">
+                                <a href="" style="color: white;"><strong>ĐỜI SỐNG</strong></a>
+                                <ul class="dropdown-content">
+                                    <li>
+                                        <a href="">Sự kiện hàng ngày</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Adam-Eva</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Du lịch</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Làm đẹp</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Thế giới</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Cuộc sống</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </div>
+
+                        <div>
+                            <li class="dropdown">
+                                <a href="" style="color: white;"><strong>KINH TẾ</strong></a>
+                                <ul class="dropdown-content">
+                                    <li>
+                                        <a href="">Bất động sản</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Kinh doanh</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Chứng khoán</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Doanh nhân</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Việc làm</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Thị trường</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </div>
+
+                        <div>
+                            <li class="dropdown">
+                                <a href="" style="color: white;"><strong>GIÁO DỤC</strong></a>
+                                <ul class="dropdown-content">
+                                    <li>
+                                        <a href="">Đời sống</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Xã hội</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </div>
+
+                        <div>
+                            <li class="dropdown">
+                                <a href="" style="color: white;"><strong>CÔNG NGHỆ</strong></a>
+                                <ul class="dropdown-content">
+                                    <li>
+                                        <a href="">Sản phẩm mới</a>
+                                    </li>
+                                    <li>
+                                        <a href="">App</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </div>
+
+                        <div>
+                            <li class="dropdown">
+                                <a href="" style="color: white;"><strong>Ô TÔ/XE MÁY</strong></a>
+                                <ul class="dropdown-content">
+                                    <li>
+                                        <a href="">Yamaha</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Honda</a>
+                                    </li>
+                                    <li>
+                                        <a href="">BMW</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </div>
+
+                        <div class="inputcss">
+                            <input type="search" id="search" placeholder="Search..." /> 
+                            <i class="fas fa-search" id="icon-search"></i>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="full-content1">
+            <div>
+            <ol class="trangchu-thethao-bongda">
+                <li>
+                    <a href="">TRANG CHỦ ></a>
+                </li>
+
+                <li>
+                    <a href="">THỂ THAO ></a>
+                </li>
+
+                <li>
+                    <a href="">BÓNG ĐÁ</a>
+                </li>
+            </ol>
+            </div>
+        </div>
+        <h1>ĐT Việt Nam thay đổi lịch trình, sang Ả Rập Xê Út muộn hơn 1 ngày</h1>
+        <div id="content">
+            <div><i class="fas fa-user"></i> <a href="" style="color: rgb(5, 92, 63);">TUYẾT LINH</a></div>
+            <div><i class="far fa-clock"></i> <span > Thứ tư, 25/08/2021 15:15</span></div>
+            <div>
+                <ul>
+                    <li class="gioi-thieu">Đoàn Văn Hậu xách vali rời ĐT Việt Nam: 'Ở đời nên học cách bình thản đối mặt trước mọi chuyện'</li>
+                    <li class="gioi-thieu">Xôn xao tin đồn HLV Park Hang-seo từ chối gia hạn với ĐT Việt Nam, nhận lời sang Thái Lan làm việc</li>
+            </ul>
+        </div>
+            <h2>Trước thời điểm lên đường sang Ả Rập Xê Út dự vòng loại World Cup, ĐT Việt Nam đã có những điều chỉnh về lịch trình bay, qua đó sẽ lên đường vào ngày 28/8 thay vì 27/8 như dự kiến.</h2>
+            <p>Theo kế hoạch dự kiến ban đầu, đội tuyển Việt Nam sẽ di chuyển sang Ả Rập Xê Út để thi đấu lượt trận đầu tiên tại Vòng loại cuối FIFA World Cup 2022 vào rạng sáng ngày 27/8. Tuy nhiên, do lịch trình bay có sự điều chỉnh cho phù hợp với điều kiện thực tế, nên thầy trò HLV Park Hang Seo sẽ lên đường vào rạng sáng ngày 28/8 tới.</p>
+            <img src="https://cdnmedia.tinmoi.vn/upload/thanhdat/2021/08/25/1629891900-1.jpg" alt="">
+            <p>Như vậy ĐT Việt Nam sẽ sang chậm hơn một ngày so với kế hoạch. Toàn đội sẽ có khoảng 4 ngày để làm quen với sân tập, thích nghi với điều kiện thời tiết lại Ả Rập Xê Út.</p>
+            <p>Trước đó theo dự kiến,toàn đội sẽ bay từ Hà Nội đến Dubai (UAE) trên chuyến bay EK395. Thời gian bay dự kiến là 6 giờ và 35 phút bay. Sau khi đến Dubai, tuyển Việt Nam sẽ quá cảnh khoảng 100 phút, thời gian đủ để làm thủ tục chuyển sang chuyến bay EK2819 bay từ Dubai đi Ả Rập Xê Út, lúc 6 giờ 15 phút (giờ địa phương). Dự kiến, chỉ cần 1 giờ bay là đội đặt chân đến quốc gia đá trận đầu tiên vòng 3 Vòng loại World Cup 2022.</p>
+            <img src="https://cdnmedia.tinmoi.vn/upload/thanhdat/2021/08/25/1629891900-2.jpg" alt="">
+            <br>
+            <p>Hôm qua (24/8), bộ phận tiền trạm của VFF cũng đã di chuyển sang Saudi Arabia để chuẩn bị công tác hậu cần đón đội tuyển Việt Nam sang thi đấu.</p>
+            <p>Trong khi đó, ĐT Việt Nam vẫn đang nỗ lực tập luyện để chuẩn bị cho các trận đấu tại vòng loại World Cup. Vào ngày 26/8 tới, thầy trò ông Park sẽ có thêm một trận giao hữu với U22 để rèn luyện chiến thuật và có những đánh giá tổng quan nhất. Nhiều khả năng sau trận đấu này, vị chiến lược gia người Hàn Quốc sẽ chốt danh sách các cầu thủ dự trận đấu sắp tới.</p>
+            <img src="https://cdnmedia.tinmoi.vn/upload/thanhdat/2021/08/16/hlv-park-hang-seo-tim-ra-tu-huyet-cua-a-rap-xe-ut-dt-viet-nam-co-hy-vong-gianh-diem-tai-tay-a-1629120976-2.jpg" alt="" style="height: 720px; width: 855px;">
+            <p>Theo thông tin từ trang chủ Liên đoàn Bóng đá thế giới (FIFA), trận mở màn giữa đội tuyển Việt Nam và Ả Rập Xê Út ở bảng B vòng loại thứ ba World Cup 2022 sẽ diễn ra lúc 21h ngày 2/9 giờ địa phương (1h ngày 3/9 giờ Hà Nội).</p>
+            <br>
+            <div class="lien-quan">
+                <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+                <ul>
+                    <h3>TIN LIÊN QUAN</h3>
+                    <li class="li-lien-quan"><a href="">Xôn xao tin đồn HLV Park Hang-seo từ chối gia hạn với ĐT Việt Nam, nhận lời sang Thái Lan làm việc</a></li>
+                    <li class="li-lien-quan"><a href="">ĐT Việt Nam đấu Ả Rập Xê Út: Lộ diện 'thần tài' điều khiển phòng VAR, điềm may mắn dến với thầy Park?</a></li>
+                </ul>
+            </div>
+
+            <div id="slideshow">
+                <div class="slide-wrapper">
+                    <div class="slide"><img src="https://cdnmedia.tinmoi.vn/upload/camnhung/2021/08/28/vong-loai-cuoi-world-cup-2022-nuoc-chu-nha-saudi-arabia-bo-tri-may-bay-rieng-don-dt-viet-nam-1630112626-1.jpg"></div>
+                    <div class="slide"><img src="https://cdnmedia.tinmoi.vn/upload/honghoavideo/2021/06/18/minh-vuong-lai-ghi-diem-voi-nguoi-ham-mo-khi-co-man-dap-le-nu-khan-gia-khoc-vi-thuong-minh-1624018751-1.jpg"></div>
+                    <div class="slide"><img src="https://cdnmedia.tinmoi.vn/upload/thanhdat/2021/08/27/dt-viet-nam-thang-6-0-truoc-ngay-len-duong-sang-a-rap-xe-ut-hlv-park-hang-seo-van-loay-hoay-va-hang-thu-1630032010-3.jpg" style="height: 400px; width: 700px;"></div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+<!-- 
+    <!-- <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const loadEl = document.querySelector('#load');
+        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+        // // The Firebase SDK is initialized and available here!
+        //
+        // firebase.auth().onAuthStateChanged(user => { });
+        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
+        // firebase.firestore().doc('/foo/bar').get().then(() => { });
+        // firebase.functions().httpsCallable('yourFunction')().then(() => { });
+        // firebase.messaging().requestPermission().then(() => { });
+        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
+        // firebase.analytics(); // call to activate
+        // firebase.analytics().logEvent('tutorial_completed');
+        // firebase.performance(); // call to activate
+        //
+        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+
+        try {
+          let app = firebase.app();
+          let features = [
+            'auth', 
+            'database', 
+            'firestore',
+            'functions',
+            'messaging', 
+            'storage', 
+            'analytics', 
+            'remoteConfig',
+            'performance',
+          ].filter(feature => typeof app[feature] === 'function');
+          loadEl.textContent = `Firebase SDK loaded with ${features.join(', ')}`;
+        } catch (e) {
+          console.error(e);
+          loadEl.textContent = 'Error loading the Firebase SDK, check the console.';
+        }
+      }); -->
+    <!-- </script> --> -->
+  </body>
+</html>
